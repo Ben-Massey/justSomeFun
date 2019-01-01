@@ -7,3 +7,14 @@ body {
     background-color: black;
 }
 
+@keyframes example{
+    0% {left: 0px;}
+    100% {top: 200px;}
+}
+
+div{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
